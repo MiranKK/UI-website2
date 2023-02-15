@@ -135,7 +135,7 @@ nav {
 .first-sec{
 
     background-color: rgba(245, 245, 245, 0.659);
-    height: 25vh;
+    height: 30vh;
     transform: scale(0.7);
     border-radius: 10px;
     padding: 40px;
@@ -154,13 +154,26 @@ nav {
 .child-pt1{
     display: flex;
     justify-content:space-evenly;
-   color: #f36252;
+
     height: 20vh;
-    font-size: 1.8rem;
+   
 }
-.pt1-sec h1{
+.child-pt1 h1{
+ color: #f36252;
+    font-size: 2.0rem;
     text-align: center;
-    font-size: 1.8rem;
+}
+.child-pt1 p{
+    
+       font-size: 1.4rem;
+       color: #223545;
+   }
+
+
+.pt1-sec h2{
+    text-align: center;
+   font-size: 2rem;
+    color: #223545;
 }
 
 .btn-firs{
@@ -182,4 +195,12 @@ nav {
     cursor: pointer;
     transition: all .4s;
     
+}
+
+.btn-firs button:hover{
+
+    color: #223545;
+    
+    transform: scale(1.07);
+    text-shadow:1px 1px 1px #2235459d;
 }

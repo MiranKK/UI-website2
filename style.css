@@ -124,15 +124,15 @@ nav {
     transition: all .4s;
 }
 
-.texts-btn button:hover{
+.texts-btn button:hover {
 
     color: #223545;
-    
+
     transform: scale(1.07);
-    text-shadow:1px 1px 1px #2235459d;
+    text-shadow: 1px 1px 1px #2235459d;
 }
 
-.first-sec{
+.first-sec {
 
     background-color: rgba(245, 245, 245, 0.659);
     height: 30vh;
@@ -141,50 +141,53 @@ nav {
     padding: 40px;
     display: grid;
     grid-template-columns: 75% 25%;
-    
+
 }
 
-.pt1-sec{
- 
+.pt1-sec {
+
     height: 28vh;
-    
- 
+
+
 }
 
-.child-pt1{
+.child-pt1 {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 
     height: 20vh;
-   
+
 }
-.child-pt1 h1{
- color: #f36252;
+
+.child-pt1 h1 {
+    color: #f36252;
     font-size: 2.0rem;
     text-align: center;
 }
-.child-pt1 p{
-    
-       font-size: 1.4rem;
-       color: #223545;
-   }
 
+.child-pt1 p {
 
-.pt1-sec h2{
-    text-align: center;
-   font-size: 2rem;
+    font-size: 1.4rem;
     color: #223545;
 }
 
-.btn-firs{
-    
+
+.pt1-sec h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #223545;
+}
+
+.btn-firs {
+
     display: flex;
     justify-content: center;
-    align-items:center;
-    
-    
+    align-items: center;
+
+
 }
-.btn-firs button{
+
+.btn-firs button {
     color: white;
     background-color: #f36252;
     padding: 15px 30px;
@@ -194,13 +197,65 @@ nav {
     box-shadow: 3px 3px 3px 2px #f36252;
     cursor: pointer;
     transition: all .4s;
-    
+
 }
 
-.btn-firs button:hover{
+.btn-firs button:hover {
 
     color: #223545;
-    
+
     transform: scale(1.07);
-    text-shadow:1px 1px 1px #2235459d;
+    text-shadow: 1px 1px 1px #2235459d;
+}
+
+.Remote-jobs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.Remote-jobs h1 {
+    color: #133A3D;
+}
+
+.Remote-jobs h5 {
+    font-weight: 300;
+}
+
+.cards-job {
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(4, 0fr);
+    gap: 45px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards {
+    width: 280px;
+    height: 240px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: .4s;
+
+
+}
+
+.cards:hover {
+    background-color: #f36252;
+    color: white;
+    box-shadow: 4px 4px 4px 4px #f36252;
+    transform: scale(1.046);
+}
+
+.cards-job a {
+    text-decoration: none;
+    color: #133A3D;
 }

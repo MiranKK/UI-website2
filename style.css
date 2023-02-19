@@ -1,5 +1,6 @@
 * {
     font-family: sans-serif;
+
 }
 
 body {
@@ -63,7 +64,7 @@ nav {
 
     font-size: 1.26rem;
     text-shadow: 1px 1px 1px gray;
-    color: rgb(229, 187, 82);
+    color: #f36252;
 }
 
 .end-nav {
@@ -258,4 +259,53 @@ nav {
 .cards-job a {
     text-decoration: none;
     color: #133A3D;
+}
+
+.box1 {
+
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 15px;
+}
+
+.img-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    justify-items: center;
+
+
+}
+
+.micro {
+    justify-self: end;
+}
+
+.zillow {
+    justify-self: start;
+}
+
+.ferari {
+    justify-self: end;
+}
+
+.final {
+    justify-self: start;
+}
+
+.child-box p {
+    color: #223545;
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+hr {
+    width: 700px;
+    height: 1px;
+    background-color: #223545;
+
 }

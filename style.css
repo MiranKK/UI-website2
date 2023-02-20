@@ -268,12 +268,14 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 15px;
+
 }
 
 .img-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 80px;
+
     justify-items: center;
 
 
@@ -308,4 +310,62 @@ hr {
     height: 1px;
     background-color: #223545;
 
+}
+
+.subscribe {
+    background-color: #f36252;
+    border-radius: 8px;
+
+    width: 65vw;
+    height: 25vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.subscribe p {
+    letter-spacing: 1.5px;
+
+}
+
+.subscribe .input-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 450px;
+    height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.input-email input {
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1rem;
+
+}
+
+.input-email img {
+    position: absolute;
+    right: 0px;
+
+}
+
+.input-email a {
+    text-decoration: none;
+    margin: 0 0 40px 0;
+    transition: all .3s;
+}
+
+.input-email a :hover {
+    width: 41px;
+    height: 41px;
 }
